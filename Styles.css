@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color: rgb(117, 114, 114);
+    width: 434px;
+    height: 100vh ;
+    font-family: "Fira Sans', sans-serif;
+    
+    
+}
+    
+.sidebar nav{
+    padding: 72px;
+}
+    
+.sidebar nav li{
+list-style: none;
+font-size: 22px;
+padding: 35px 0px;
+color: black;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Berlin Sans FB';
+   
+    }
+
+.main{
+   margin-top: 0px;
+    background-color: rgb(31, 29, 29);
+    width: 81vw;
+    height: 50vh;
+    padding: 23px;
+}
+.container{ 
+    display: flex;
+   
+}
+.infoContainer {
+
+    background-color: rgb(114, 109, 112);
+    height: 70vh auto ;
+    width: 74vw auto;
+    margin: 50px;
+    margin-top: 15vh;
+    display: flex;
+    flex-wrap: none;
+    
+}
+
+.pic { 
+   margin-right: 300px;
+   float: right;
+
+}
+
+.devInfo{
+   
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+}
+.forPic{
+  
+    margin-left: 10vw;
+    margin-bottom: 20vh;
+ 
+}
+.info{
+    /* align-items: center; */
+    margin-top: 20vh;
+    /* font-size: 30px;
+   */
+  
+}
+
+.hello{
+    font-size: 30px;
+    font-family: 'Constantia';
+    font-style: bold;
+}
+.name{
+    font-size: 50px ;
+    font-family: 'Berlin Sans FB';
+}
+.about{
+    font-size: 40px;
+    font-family: 'OnStageSerial';
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Constantia';
+}
+.buttons button{
+    padding: 5px 10px;
+    border-radius: 22px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(5, 5, 5);
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons_sm button{
+    padding: 4px 6px;
+    border-radius: 22px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(5, 5, 5);
+    font-size: 11px;
+    cursor: pointer;
+}
+
+                                                /* #contactfrom */
+.contactform{
+    padding: 0 34px;  
+    padding-top: 55px;
+    font-family: 'Berlin Sans FB';
+}
+    
+.contactform h1{ 
+    font-family: 'Constantia';
+   
+}
+    
+.contactform form div{
+    padding: 10px 0;
+    display: flex; 
+    flex-direction: column;
+    }
+    
+.contactform form div input{
+    border-radius: 5px;
+    width: 26vw; 
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: Omidnightblue;
+    margin: 0 5px;
+}
+#form-check{
+     flex-direction: row;
+    }
+
+ #form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+/* for blog */
+
+.blogItem {
+    margin: 20px; 
+    font-family: 'Fira Sans, sans-serif;
+}
+
+.blogcontadner h1{
+    font-family: 'OnStageSerial';
+    margin: 23px;
+}
+
+.blogItem p{
+
+font-family:'Cascadia Mono';
+}
+
+/* for intro */
+.intro h2{ 
+    font-family: 'OnStageSerial';
+     margin: 12px;
+}
+
+.intro p{
+    font-family: 'Cascadia Mono';
+     margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 26px;
+    height: 6px;
+    background-color: rgb(13, 14, 14);
+}
+.hundered{
+    width: 356px;
+    height: 6px;
+    background-color: rgb(13, 14, 14);
+}
+.Fifty{
+    width: 178px;
+    height: 6px;
+    background-color: rgb(13, 14, 14);
+}
+.TwentyFife{
+    width: 89px;
+    height: 6px;
+    background-color: rgb(13, 14, 14);
+}
